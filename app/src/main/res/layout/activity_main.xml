@@ -516,18 +516,6 @@
             android:paddingEnd="@dimen/checkBoxMargin"
             android:text="@string/question8_d"/>
 
-        <TextView
-            android:id="@+id/results_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingTop="@dimen/defaultPaddingSmall"
-            android:paddingBottom="@dimen/defaultPaddingSmall"
-            android:paddingLeft="@dimen/edgeMargin"
-            android:paddingStart="@dimen/edgeMargin"
-            android:paddingRight="@dimen/edgeMargin"
-            android:paddingEnd="@dimen/edgeMargin"
-            android:gravity="center"
-            android:text=""/>
 
         <LinearLayout
             android:layout_width="match_parent"

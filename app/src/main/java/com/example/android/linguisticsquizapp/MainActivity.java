@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         String resultsMessage = createResultsMessage(points, numberOfQuestions, numberOfCheckQuestions);
 
-        displayResults(resultsMessage);
+        Toast toast = Toast.makeText(this, resultsMessage, Toast.LENGTH_LONG);
+        toast.show();
 
     }
 
@@ -135,11 +137,6 @@ public class MainActivity extends AppCompatActivity {
         return resultsMessage;
     }
 
-    public void displayResults (String resultsMessage) {
-        TextView resultsView = (TextView) findViewById(R.id.results_view);
-        resultsView.setText(resultsMessage);
-    }
-
     public void resetQuiz (View view){
 
         // clear edit texts
@@ -190,8 +187,5 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkBox8d = findViewById(R.id.question8_d);
         checkBox8d.setChecked(false);
 
-        // clear results text view
-        TextView resultsView = (TextView) findViewById(R.id.results_view);
-        resultsView.setText("");
     }
 }
