@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">linguisticsQuizApp</string>
+
+    <string name="title">The ultimate linguistics quiz</string>
+
+    <string name="question1">1. Which language is not part of the slavonic language family?</string>
+    <string name="question1_a">Russian</string>
+    <string name="question1_b">Bulgarian</string>
+    <string name="question1_c">Hungarian</string>
+    <string name="question1_d">Macedonian</string>
+
+    <string name="question2">2. Which linguist did invent the Role-and-Reference Grammar (RRG)?</string>
+    <string name="question2_a">Noam Chomsky</string>
+    <string name="question2_b">Robert Van Valin</string>
+    <string name="question2_c">George Lakoff</string>
+    <string name="question2_d">Joan Bresnan</string>
+
+    <string name="question3">3. What linguistic sub-discipline deals with the structure of words?</string>
+    <string name="question3_hint">Your Answer</string>
+
+    <string name="question4">4. What is an example of an alveolar fricative?</string>
+    <string name="question4_a">[b]</string>
+    <string name="question4_b">[s]</string>
+    <string name="question4_c">[r]</string>
+    <string name="question4_d">[h]</string>
+
+    <string name="question5">5. Which languages have a standard SOV (subject-object-verb) word order? (2 correct answers)</string>
+    <string name="question5_a">Persian</string>
+    <string name="question5_b">English</string>
+    <string name="question5_c">Arabic</string>
+    <string name="question5_d">Bambara</string>
+
+    <string name="question6">6. What is the country with the most languages?</string>
+    <string name="question6_a">USA</string>
+    <string name="question6_b">India</string>
+    <string name="question6_c">Nigeria</string>
+    <string name="question6_d">Papua New Guinea</string>
+
+    <string name="question7">7. Which of the following languages has no case system?</string>
+    <string name="question7_a">Turkish</string>
+    <string name="question7_b">Finish</string>
+    <string name="question7_c">Mandarin Chinese</string>
+    <string name="question7_d">German</string>
+
+    <string name="question8">Which methods are used for psycholinguistic research? (2 correct answers)</string>
+    <string name="question8_a">Eye Movement Topography</string>
+    <string name="question8_b">Eye Tracking</string>
+    <string name="question8_c">TSC</string>
+    <string name="question8_d">EEG</string>
+
+    <string name="submitButton">Submit</string>
+    <string name="resetButton">Reset</string>
+
+    <string name="inputName">Your Name</string>
+
+
+</resources>
